@@ -7,6 +7,10 @@
             padding: 0;
             text-align: center;
         }
+
+        .Title{
+        font-family: "Knewave", system-ui;
+        }
         header {
             background-color: #333;
             padding: 20px;
