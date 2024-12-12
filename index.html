@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameSphere - Ultimate Gaming Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #333;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: #f5f5f5;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        .featured-games {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            gap: 30px;
+        }
+        .game-card {
+            background-color: #444;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            width: 250px;
+        }
+        .game-card h3 {
+            margin-bottom: 10px;
+        }
+        .game-card p {
+            color: #ccc;
+        }
+        .cta-button {
+            background-color: #ff6600;
+            padding: 15px 30px;
+            border: none;
+            color: white;
+            font-size: 1.2em;
+            margin-top: 30px;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #333;
+            padding: 20px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to GameSphere</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Games</a>
+        <a href="#">Community</a>
+        <a href="#">News</a>
+        <a href="#">Subscribe</a>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2>Your Ultimate Gaming Hub</h2>
+        <p>Explore a world of adventure, competition, and excitement. At GameSphere, we bring you the latest game releases, reviews, news, and community-driven content.</p>
+    </section>
+
+    <section class="featured-games">
+        <div class="game-card">
+            <h3>Game 1</h3>
+            <p>Action-packed adventure.</p>
+        </div>
+        <div class="game-card">
+            <h3>Game 2</h3>
+            <p>Epic battles await.</p>
+        </div>
+        <div class="game-card">
+            <h3>Game 3</h3>
+            <p>Explore new worlds.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Join Our Community</h2>
+        <p>Connect with gamers worldwide. Share tips, join tournaments, or chat with others who love the games you do.</p>
+        <button class="cta-button" onclick="joinCommunity()">Join Now</button>
+    </section>
+
+    <section>
+        <h2>Stay Updated</h2>
+        <p>Don't miss the latest game releases, patch updates, and industry news. Subscribe to our newsletter!</p>
+        <button class="cta-button" onclick="subscribeNewsletter()">Subscribe</button>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 GameSphere. All rights reserved.</p>
+</footer>
+
+<script>
+    function joinCommunity() {
+        alert('Welcome to the community! You are now a member.');
+    }
+
+    function subscribeNewsletter() {
+        alert('Thanks for subscribing! Stay tuned for the latest updates.');
+    }
+</script>
+
+</body>
+</html>
