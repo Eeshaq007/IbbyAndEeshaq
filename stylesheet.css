@@ -1,6 +1,6 @@
 
         body {
-            font-family: "Jersey 25", sans-serif;
+            font-family: "Epilogue", sans-serif;
             background-color: #1a1a1a;
             color: #f5f5f5;
             margin: 0;
@@ -61,8 +61,9 @@
             width: 100%;
         }
 
-        .jersey-25-regular {
-           font-family: "Jersey 25", sans-serif;
-           font-weight: 400;
-           font-style: normal;
-                    }
+        .epilogue-<uniquifier> {
+  font-family: "Epilogue", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
